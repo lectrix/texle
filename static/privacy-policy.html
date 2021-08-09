@@ -20,7 +20,8 @@
         width: 100%;
         display: flex;
         max-width: 1200px;
-        color: #333333;
+        color: #000000;
+        flex-direction: column;
       }
 
       p {
@@ -57,10 +58,49 @@
       li {
         margin: 1.5em 0.25em;
       }
+
+      .language {
+        padding: 2em;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .language a:hover {
+        color: #ffffff !important;
+        background-color: #7c1854 !important;
+      }
+
+      .language a {
+        padding: 12px 16px;
+        border: 3px solid #7c1854;
+        border-radius: 32px;
+        text-decoration: none;
+        color: #7c1854 !important;
+        background-color: transparent !important;
+        transition: 0.2s all;
+        font-weight: bold;
+        margin-right: 16px;
+      }
+
+      .language a:focus {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .language a:link {
+        color: inherit;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
-    <div class="page">
+    <div class="language">
+      <a href="#german">Deutsch</a>
+      <a href="#english">English</a>
+    </div>
+    <div class="page" id="german">
       <h1>Datenschutzerklärung Texle App</h1>
       <p>
         Folgende Datenschutzerklärung dient der Aufklärung über Art, Umfang und
@@ -325,6 +365,257 @@
       </p>
       <p>
         Telefon: 01734629016 <br />
+        E-Mail: <span>lectrix.development@gmail.com</span>
+      </p>
+    </div>
+    <div class="page" id="english">
+      <h1>Privacy Policy Texle App</h1>
+      <p>
+        The following data privacy policy serves to clarify the nature, scope
+        and purpose of the processing of personal data within the Texle App. In
+        addition, the general purpose of the Texle App is defined. With regard
+        to the terms used, such as "processing" or "controller", we refer to the
+        definitions in Article 4 of the General Data Protection Regulation
+        (GDPR).
+      </p>
+
+      <h2>Purpose</h2>
+      <p>
+        The purpose of the Texle App is to arrange words entered by you in a
+        more artistic and visually appealing way and to generate images and
+        vectors from them. In doing so, the Texle App only processes the texts
+        you enter, and does not store them on servers or databases. The texts
+        are processed only on your device.
+      </p>
+
+      <h2>Access rights of the app</h2>
+      <p>
+        Protecting your data is important to us, so the app is designed to use
+        only the device rights ("permissions") needed to fulfill the app's
+        purpose. To ensure proper functioning of the app, the app requires the
+        following access rights to your device:
+      </p>
+      <ul>
+        <li>
+          <h3>
+            Access right to the memory of your device ("access to external
+            storage").
+          </h3>
+          <p>
+            Access to the SD card of the device is needed for temporary storage
+            and processing of generated images and vectors, as well as for their
+            export. If you purchase images or vectors in the premium version,
+            they will be saved to the memory of your device and delivered.
+          </p>
+        </li>
+        <li>
+          <h3>Network access ("access to network")</h3>
+          <p>
+            Access to the network is required for making purchases within the
+            app and verifying them. In addition, services for displaying
+            advertisements and for transmitting crash reports and anonymized
+            statistics require access to the Internet.
+          </p>
+        </li>
+        <li>
+          <h3>Access right to the store payment methods ("billing").</h3>
+          <p>This access right allows purchases within the app.</p>
+        </li>
+        <li>
+          <h3>Access right to power management ("wake lock")</h3>
+          <p>
+            Necessary to continue the generation of images and their processing
+            even when the screen is turned off.
+          </p>
+        </li>
+      </ul>
+
+      <p>
+        Access to device functions is necessary to ensure the functionality of
+        the app. The legal basis for this data processing is our legitimate
+        interest within the meaning of Art. 6 (1) lit. f GDPR, your consent
+        within the meaning of Art. 6 (1) lit. a GDPR or, if a contract has been
+        concluded, the fulfillment of our contractual obligations (Art. 6 (1)
+        lit. b GDPR).
+      </p>
+
+      <h2>Deletion</h2>
+
+      <p>
+        No personal data is stored in the app itself. The personal data
+        necessary for the operation of the app is stored in other third-party
+        services and is subject to the deletion periods applicable there.
+      </p>
+
+      <h2>Use of third-party services</h2>
+
+      <h3>Google Admob</h3>
+      <p>
+        The Texle App uses the Google Admob service to display advertisements.
+        Ads are personalized based on the device you are using. You can disable
+        this through your device settings. To revoke consent, you can use the
+        "Privacy settings" menu item in the app menu. Personal data may be used
+        in this process to display ads that you may be interested in. The
+        information thus generated is transferred to the server of the
+        respective advertising service and stored there. The data processing is
+        carried out on the basis of the legal provisions of Article 6, paragraph
+        1, points a) and f) of the GDPR. Our interest within the meaning of the
+        GDPR (legitimate interest) is the maintenance of our services and our
+        app.
+      </p>
+      <p>
+        The Google Admob service is provided by Google: Google Inc, 1600
+        Amphitheatre Parkway Mountain View, CA 94043, USA
+      </p>
+      <p>
+        Google is certified under the Privacy Shield Agreement and thereby
+        guarantees compliance with European data protection law (<a
+          href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active"
+          >https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active</a
+        >).
+      </p>
+      <p>
+        Further general information on the handling of user data can be found in
+        Google's privacy policy:
+        <br /><a href="https://www.google.de/intl/de/policies/privacy/"
+          >https://www.google.de/intl/de/policies/privacy/</a
+        >
+        <br /><a href="https://policies.google.com/technologies/partner-sites"
+          >https://policies.google.com/technologies/partner-sites</a
+        >
+      </p>
+
+      <h3>Google Play Store</h3>
+      <p>
+        The app is available within the Google Play Store. This is a product of
+        Google Inc, 1600 Amphitheatre Parkway Mountain View, CA 94043, USA
+        ("Google"). Using the Play Store, we obtain the following information
+        about the devices on which our apps are installed:
+      </p>
+
+      <ul>
+        <li>Country code</li>
+        <li>Language</li>
+        <li>Manufacturer</li>
+        <li>Operating system version</li>
+      </ul>
+      <p>
+        In addition, we also receive information about the installed version of
+        our app.
+      </p>
+      <p>
+        The basis for the data collection is the purpose of fulfilling the
+        contract according to Art. 6 para. 1 lit. b GDPR (e.g. when using in-app
+        purchases).
+      </p>
+      <p>
+        When downloading the Texle App, required information such as user name,
+        time of download, payment information and the individual device
+        identification number are transmitted to the used store operator.
+        Furthermore, it is also possible to rate the app on the store page. We
+        have no control over this data collection and processing and are not
+        responsible for it. For more information, please refer to the store's
+        privacy policy.
+      </p>
+
+      <p>
+        We do not collect or process your personal data for purchases within the
+        Texle App. Personal data, such as data for electronic payment
+        processing, is only collected and processed by the operator of the App
+        Store. Please refer to the operator's privacy policy when using the
+        store. If you have any questions regarding the processing of your
+        personal data by the Google Play Store, please contact the App Store
+        directly.
+      </p>
+
+      <p>
+        Google Play Store:
+        <a href="www.policies.google.com/privacy"
+          >policies.google.com/privacy</a
+        >
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        We reserve the right to change this privacy policy. This privacy policy
+        is currently valid and was last amended on 24.07.2021.
+      </p>
+
+      <h2>Your rights</h2>
+      <p>With regard to your personal data, you have the following rights:</p>
+
+      <ol>
+        <li>
+          The right to obtain information about the personal data, the purpose
+          of processing, the category of personal data, the categories of
+          recipients and the planned storage period (Art. 15 GDPR).
+        </li>
+        <li>
+          The right to rectification from the controller of inaccurate or
+          incomplete personal data (Art. 16, 17 GDPR).
+        </li>
+        <li>
+          The right to erasure or restriction of processing of personal data
+          (Art. 17 GDPR).
+        </li>
+        <li>The right to data portability (Art. 20 GDPR).</li>
+        <li>
+          The right to withdraw your consent without giving reasons (Art. 7(3)
+          GDPR).
+        </li>
+        <li>
+          The right to lodge a complaint with the competent supervisory
+          authority (Art. 77 GDPR).
+        </li>
+      </ol>
+
+      <h3>Withdrawal of your consent to data processing</h3>
+      <p>
+        Many data processing operations are only possible with your consent and
+        are explicitly obtained from you before data processing begins. You can
+        revoke this consent at any time. To revoke consent, you can use the
+        "Privacy settings" menu item in the app menu. The legality of the data
+        processing operations carried out until the revocation remains
+        unaffected by the revocation.
+      </p>
+
+      <h3>
+        Right to object to data collection in special cases and to direct
+        marketing (Art. 21 GDPR).
+      </h3>
+      <p>
+        If data processing is carried out on the basis of Art. 6(1)(e) or (f)
+        GDPR, you have the right to object to the processing of your personal
+        data at any time on grounds relating to your particular situation; this
+        also applies to profiling based on these terms. The respective legal
+        basis on which processing is based can be found in this privacy policy.
+        If you object, we will no longer process your personal data unless we
+        can demonstrate compelling legitimate grounds for the processing which
+        override your interests, rights and freedoms, or the processing serves
+        the purpose of asserting, exercising or defending legal claims
+        (objection under Article 21(1) GDPR).
+      </p>
+      <p>
+        If your personal data is processed for the purpose of direct marketing,
+        you have the right to object at any time to the processing of personal
+        data concerning you for the purpose of such marketing; this also applies
+        to profiling, insofar as it is related to such direct marketing. If you
+        object, your personal data will subsequently no longer be used for the
+        purpose of direct marketing (objection pursuant to Article 21 (2) GDPR).
+      </p>
+
+      <h2>Contact information</h2>
+      <p>
+        If you have any questions about data protection in relation to the Texle
+        App or wish to assert your rights, please contact:
+      </p>
+      <p>
+        Alexander Miske <br />
+        Buscherstraße 3<br />
+        40239 Düsseldorf<br />
+      </p>
+      <p>
+        Phone: 01734629016 <br />
         E-Mail: <span>lectrix.development@gmail.com</span>
       </p>
     </div>
